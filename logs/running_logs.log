@@ -1,1 +1,146 @@
 [2024-03-14 12:24:51,714: INFO: main: Logging from main.py]
+[2024-03-18 14:36:01,081: INFO: common: yaml file: /home/varun/Documents/TextSummarization/src/textSummarizer/config/configuration.py loaded successfully]
+[2024-03-18 14:36:56,492: INFO: common: yaml file: /home/varun/Documents/TextSummarization/src/textSummarizer/config/configuration.py loaded successfully]
+[2024-03-18 14:37:30,338: INFO: common: yaml file: /home/varun/Documents/TextSummarization/config/config.yaml loaded successfully]
+[2024-03-18 14:38:02,131: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-18 14:41:28,359: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-18 14:41:33,412: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-18 14:41:33,414: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-18 14:41:33,415: INFO: common: created directory at: artifacts]
+[2024-03-18 14:41:33,416: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-18 14:41:35,279: INFO: 3541854288: artifacts/data_ingestion/summarizer-data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9830:177EEB:1DC225:2920A7:65F80545
+Accept-Ranges: bytes
+Date: Mon, 18 Mar 2024 09:11:34 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21746-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1710753094.921843,VS0,VE705
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 18c9bbcce687f4a6f3239ba50e892e43fbf15a17
+Expires: Mon, 18 Mar 2024 09:16:34 GMT
+Source-Age: 0
+
+]
+[2024-03-18 14:43:57,679: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-18 14:43:57,681: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-18 14:43:57,682: INFO: common: created directory at: artifacts]
+[2024-03-18 14:43:57,682: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-18 14:43:57,683: INFO: 1090604987: File already exists of size: ~7718 KB]
+[2024-03-18 14:44:17,145: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-18 14:44:17,147: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-18 14:44:17,147: INFO: common: created directory at: artifacts]
+[2024-03-18 14:44:17,148: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-18 14:44:17,149: INFO: 2459005936: File already exists of size: ~7718 KB]
+[2024-03-18 14:52:06,156: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-18 14:52:06,158: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-18 14:52:06,158: INFO: common: created directory at: artifacts]
+[2024-03-18 14:52:06,159: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-18 14:52:06,160: INFO: 2459005936: File already exists of size: ~7718 KB]
+[2024-03-18 15:27:10,861: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-18 15:27:10,862: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-18 15:27:10,862: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-18 15:27:10,862: INFO: common: created directory at: artifacts]
+[2024-03-18 15:27:10,862: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-18 15:27:10,863: ERROR: main: name 'DataIngestion' is not defined]
+Traceback (most recent call last):
+  File "/home/varun/Documents/TextSummarization/main.py", line 8, in <module>
+    data_ingestion.main()
+  File "/home/varun/Documents/TextSummarization/src/textSummarizer/pipeline/satge_01_data_ingestion.py", line 13, in main
+    data_ingestion = DataIngestion(config=data_ingestion_config)
+NameError: name 'DataIngestion' is not defined
+[2024-03-18 15:33:15,177: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-18 15:33:15,178: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-18 15:33:15,179: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-18 15:33:15,179: INFO: common: created directory at: artifacts]
+[2024-03-18 15:33:15,179: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-18 15:33:17,769: INFO: data_ingestion: artifacts/data_ingestion/summarizer-data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9830:177EEB:1DC225:2920A7:65F80545
+Accept-Ranges: bytes
+Date: Mon, 18 Mar 2024 10:03:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21744-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1710756197.957097,VS0,VE283
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: dfd4c4c43d3a825b111c9eac15b78647201c7a41
+Expires: Mon, 18 Mar 2024 10:08:17 GMT
+Source-Age: 0
+
+]
+[2024-03-18 15:33:17,875: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-18 15:34:01,284: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-18 15:34:01,284: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-18 15:34:01,285: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-18 15:34:01,285: INFO: common: created directory at: artifacts]
+[2024-03-18 15:34:01,285: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-18 15:34:01,285: ERROR: main: name 'DataIngesion' is not defined]
+Traceback (most recent call last):
+  File "/home/varun/Documents/TextSummarization/main.py", line 8, in <module>
+    data_ingestion.main()
+  File "/home/varun/Documents/TextSummarization/src/textSummarizer/pipeline/satge_01_data_ingestion.py", line 12, in main
+    data_ingestion = DataIngesion(config=data_ingestion_config)
+NameError: name 'DataIngesion' is not defined
+[2024-03-18 15:34:25,320: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-18 15:34:25,321: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-18 15:34:25,321: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-18 15:34:25,321: INFO: common: created directory at: artifacts]
+[2024-03-18 15:34:25,322: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-18 15:34:26,007: INFO: data_ingestion: artifacts/data_ingestion/summarizer-data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9830:177EEB:1DC225:2920A7:65F80545
+Accept-Ranges: bytes
+Date: Mon, 18 Mar 2024 10:04:25 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21750-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1710756266.589639,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ce4d8c5196915a3db299efdb70424e5138f8798b
+Expires: Mon, 18 Mar 2024 10:09:25 GMT
+Source-Age: 68
+
+]
+[2024-03-18 15:34:26,122: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
