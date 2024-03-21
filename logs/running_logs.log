@@ -144,3 +144,169 @@ Source-Age: 68
 [2024-03-18 15:34:26,122: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2024-03-21 11:43:47,355: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 11:43:47,363: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 11:43:47,365: INFO: common: created directory at: artifacts]
+[2024-03-21 11:43:47,366: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-21 11:46:01,596: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 11:46:01,598: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 11:46:01,598: INFO: common: created directory at: artifacts]
+[2024-03-21 11:46:01,599: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-21 11:46:08,075: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 11:46:08,077: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 11:46:08,077: INFO: common: created directory at: artifacts]
+[2024-03-21 11:46:08,078: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-21 11:47:20,881: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 11:47:20,882: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 11:47:20,883: INFO: common: created directory at: artifacts]
+[2024-03-21 11:47:20,883: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-21 11:47:49,955: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 11:47:52,656: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 11:47:52,657: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 11:47:52,664: INFO: common: created directory at: artifacts]
+[2024-03-21 11:47:52,667: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 11:47:57,414: INFO: 2459005936: artifacts/data_ingestion/summarizer-data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7FC8:2D9B30:28AF21:34778B:65FBD110
+Accept-Ranges: bytes
+Date: Thu, 21 Mar 2024 06:17:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10238-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1711001873.381133,VS0,VE708
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b5e34bcc380daf315ab764ffbcb2a23cca927f99
+Expires: Thu, 21 Mar 2024 06:22:54 GMT
+Source-Age: 0
+
+]
+[2024-03-21 11:48:22,311: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 11:48:22,312: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 11:48:22,312: INFO: common: created directory at: artifacts]
+[2024-03-21 11:48:22,313: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-21 11:48:33,215: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 11:48:33,217: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 11:48:33,217: INFO: common: created directory at: artifacts]
+[2024-03-21 11:48:33,218: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-21 11:50:05,040: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 11:50:08,893: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 11:50:08,895: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 11:50:08,896: INFO: common: created directory at: artifacts]
+[2024-03-21 11:50:08,896: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 11:50:15,859: INFO: 2459005936: artifacts/data_ingestion/summarizer-data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7FC8:2D9B30:28AF21:34778B:65FBD110
+Accept-Ranges: bytes
+Date: Thu, 21 Mar 2024 06:20:09 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10241-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1711002010.729417,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 07952ffaa3db355dce4a497b49f97d792c1ae864
+Expires: Thu, 21 Mar 2024 06:25:09 GMT
+Source-Age: 136
+
+]
+[2024-03-21 11:50:41,527: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 11:50:41,528: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 11:50:41,529: INFO: common: created directory at: artifacts]
+[2024-03-21 11:50:41,529: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-21 12:13:33,453: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-21 12:13:33,454: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 12:13:33,455: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 12:13:33,455: INFO: common: created directory at: artifacts]
+[2024-03-21 12:13:33,455: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-21 12:13:33,455: ERROR: main: local variable 'data_validation_config' referenced before assignment]
+Traceback (most recent call last):
+  File "/home/varun/Documents/TextSummarization/main.py", line 20, in <module>
+    data_validation.main()
+  File "/home/varun/Documents/TextSummarization/src/textSummarizer/pipeline/stage_02_data_validation.py", line 11, in main
+    data_validation_config = config.get_data_validation_config()
+  File "/home/varun/Documents/TextSummarization/src/textSummarizer/config/configuration.py", line 27, in get_data_validation_config
+    data_validation_config = data_validation_config(
+UnboundLocalError: local variable 'data_validation_config' referenced before assignment
+[2024-03-21 12:15:21,863: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-21 12:15:21,864: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 12:15:21,865: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 12:15:21,865: INFO: common: created directory at: artifacts]
+[2024-03-21 12:15:21,865: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-21 12:15:21,865: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/samsum_dataset']
+Traceback (most recent call last):
+  File "/home/varun/Documents/TextSummarization/main.py", line 20, in <module>
+    data_validation.main()
+  File "/home/varun/Documents/TextSummarization/src/textSummarizer/pipeline/stage_02_data_validation.py", line 13, in main
+    data_validation.validate_all_files_exist()
+  File "/home/varun/Documents/TextSummarization/src/textSummarizer/components/data_validation.py", line 24, in validate_all_files_exist
+    raise e
+  File "/home/varun/Documents/TextSummarization/src/textSummarizer/components/data_validation.py", line 12, in validate_all_files_exist
+    all_files = os.listdir(os.path.join("artifacts", "data_ingestion", "samsum_dataset"))
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/samsum_dataset'
+[2024-03-21 12:16:00,073: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-21 12:16:00,074: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 12:16:00,074: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 12:16:00,074: INFO: common: created directory at: artifacts]
+[2024-03-21 12:16:00,074: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-21 12:16:04,270: INFO: data_ingestion: artifacts/data_ingestion/summarizer-data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7FC8:2D9B30:28AF21:34778B:65FBD110
+Accept-Ranges: bytes
+Date: Thu, 21 Mar 2024 06:46:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10237-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1711003561.067131,VS0,VE269
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9ab5c55280def805108a60e5200e6fb572495d35
+Expires: Thu, 21 Mar 2024 06:51:01 GMT
+Source-Age: 0
+
+]
+[2024-03-21 12:16:04,382: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-21 12:16:04,382: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-03-21 12:16:04,383: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-03-21 12:16:04,384: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-21 12:16:04,384: INFO: common: created directory at: artifacts]
+[2024-03-21 12:16:04,384: INFO: common: created directory at: artifacts/data_validation]
+[2024-03-21 12:16:04,384: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-03-21 13:11:54,680: INFO: config: PyTorch version 2.2.1 available.]
